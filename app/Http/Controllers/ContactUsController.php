@@ -3,8 +3,8 @@
 namespace App\Http\Controllers;
 
 use Illuminate\Http\Request;
-use App\Model\ContactUs;
-use App\Model\SocialMedia;
+use App\Models\ContactUs;
+use App\Models\SocialMedia;
 use DB;
 
 class ContactUsController extends Controller
