@@ -31,7 +31,7 @@ class AppServiceProvider extends ServiceProvider
                 $view->with('site_link', 'https://huzatech.com');
             }
             else{
-                $view->with('site_link', 'http://localhost/flyunique_b2c');
+                $view->with('site_link', 'http://localhost/zairaa_b2cc');
             }
             // $view->with('site_link', 'https://flyunique.pk/flyunique_admin');
         });

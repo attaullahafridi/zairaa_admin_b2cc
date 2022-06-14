@@ -8,7 +8,6 @@ Bookings
 	<div class="card-header header-elements-inline">
 		<h5 class="card-title">Bookings</h5>
 	</div>
-	
 	<table class="table table-hover booking_table" width="100%">
 		<thead>
 			<tr>
@@ -22,11 +21,10 @@ Bookings
 				<th>Ticket Status</th>
 				<th>Payment Status</th>
 				<th>View Voucher</th>
-				
 			</tr>
 		</thead>
 		<tbody>
-				<!-- hotels -->
+			<!-- hotels -->
 			@if(isset($data))
 				@foreach($data as $book)
 					<tr>
